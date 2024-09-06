@@ -13,6 +13,12 @@ class ThemeManager {
 
   static final darkThemeMode = ThemeData.dark().copyWith(
     scaffoldBackgroundColor: ColorManager.backgroundColor,
+    chipTheme: const ChipThemeData(
+      color: WidgetStatePropertyAll(
+        ColorManager.backgroundColor,
+      ),
+      side: BorderSide.none,
+    ),
     inputDecorationTheme: InputDecorationTheme(
       contentPadding: const EdgeInsets.all(20),
       enabledBorder: _border(),

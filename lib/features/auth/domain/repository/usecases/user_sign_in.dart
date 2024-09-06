@@ -1,6 +1,6 @@
 import 'package:blog_firebase/core/error/failure.dart';
 import 'package:blog_firebase/core/usecase/usecase.dart';
-import 'package:blog_firebase/features/auth/domain/entities/user.dart';
+import 'package:blog_firebase/core/common/entities/user.dart';
 import 'package:blog_firebase/features/auth/domain/repository/auth_repository.dart';
 import 'package:fpdart/fpdart.dart';
 
